@@ -25,7 +25,8 @@ medya dosyalarını, 3D motorunu ve bölüm kayıtlarını tutar. Sahibi Berkay.
   - Instagram: instagramData.type = "REEL", kapak videoThumbnailUrl ile.
   - YouTube: youtubeData.type = "short", madeForKids false, kategori ENTERTAINMENT. Kanal doğrulanmadığı için
     videoThumbnailUrl GÖNDERME (tüm gönderi reddedilir) → kapak, videonun İLK KARESİ olarak videoya gömülür.
-  - TikTok: tiktokData.isAigc = true (seslendirme yapay zekâ).
+  - TikTok: tiktokData.isAigc = true (seslendirme yapay zekâ). Hesap kişisel bağlıysa gönderi TikTok'ta
+    "AWAITING_CONFIRMATION" durumunda kalır; Berkay'a uygulamadan son "Paylaş"ı yapmasını hatırlat.
   - Onay öncesi gönderi Metricool'da `draft: true` olarak 19:00'a kurulur; Berkay onaylayınca draft:false yapılır.
 - Yorum/oy sayımı: Instagram yorumları Windsor.ai (instagram hesabı 17841433706735929) veya Metricool
   analitiği; TikTok/YouTube yorumları erişilebildiği kadar. Hangi kaynağın sayılabildiğini Berkay'a dürüstçe söyle.

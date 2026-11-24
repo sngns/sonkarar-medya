@@ -8,8 +8,25 @@
   },
   "devam_fikri": "A kazanırsa: amca, görüşmeye gidilecek şirketin sahibi çıkabilir. B kazanırsa: görüşmede amcanın oğlu/kızı ile karşılaşma vb. (Berkay'a önerilecek, kesin değil)",
   "yayin": {
-    "instagram": {"yol": "Windsor.ai", "media_id": "18123261524279475", "tarih": "2026-11-24T21:42+03:00", "not": "Kapak uygulanmadı; Berkay uygulamadan elle değiştirebilir"},
-    "youtube_tiktok": {"yol": "Metricool", "uuid": "-5876085002842321629", "planlanan": "2026-11-24T22:56+03:00"}
+    "instagram": {
+      "yol": "Windsor.ai",
+      "media_id": "18123261524279475",
+      "tarih": "2026-11-24T21:42+03:00",
+      "not": "Kapak uygulanmadı; Berkay uygulamadan elle değiştirebilir"
+    },
+    "youtube_tiktok": {
+      "yol": "Metricool",
+      "uuid": "-5876085002842321629",
+      "planlanan": "2026-11-24T22:56+03:00"
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/shorts/JbaSY0Ujg9g",
+      "video_id": "JbaSY0Ujg9g"
+    },
+    "tiktok": {
+      "durum": "AWAITING_CONFIRMATION",
+      "id": "7711828546437384213"
+    }
   },
   "oylar": null
 }
