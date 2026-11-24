@@ -1,0 +1,15 @@
+{
+  "bolum": 1,
+  "baslik": "İş Görüşmesi Günü",
+  "hikaye": "Ana karakter hayatının en önemli iş görüşmesine gidiyor (09:30, 35 dk kaldı). Otobüs durağa yanaşırken kaldırımda yaşlı bir amca düşüyor ve yardım istiyor; etrafta kimse yok, şoför 'Biniyorsan bin, kalkıyoruz!' diyor.",
+  "secenekler": {
+    "A": "Amcaya yardım et, iş görüşmesini kaçır",
+    "B": "Otobüse bin, birinin yardım etmesini um"
+  },
+  "devam_fikri": "A kazanırsa: amca, görüşmeye gidilecek şirketin sahibi çıkabilir. B kazanırsa: görüşmede amcanın oğlu/kızı ile karşılaşma vb. (Berkay'a önerilecek, kesin değil)",
+  "yayin": {
+    "instagram": {"yol": "Windsor.ai", "media_id": "18123261524279475", "tarih": "2026-11-24T21:42+03:00", "not": "Kapak uygulanmadı; Berkay uygulamadan elle değiştirebilir"},
+    "youtube_tiktok": {"yol": "Metricool", "uuid": "-5876085002842321629", "planlanan": "2026-11-24T22:56+03:00"}
+  },
+  "oylar": null
+}
