@@ -22,18 +22,18 @@
     "elevenlabs_flow": "tzmzpedUMPX8q3QqcdJn"
   },
   "yayin": {
-    "durum": "TASLAK (draft:true) — Berkay onayı bekleniyor",
+    "durum": "ONAYLANDI (Berkay, 2026-11-25 14:02) — draft:false, 19:00'da otomatik yayın",
     "planlanan": "2026-11-25T19:00+03:00",
     "instagram": {
       "yol": "Metricool",
-      "id": 441523218,
+      "id": 441564421,
       "uuid": "-2162857489319312486",
       "tip": "REEL",
       "kapak": "videoThumbnailUrl"
     },
     "youtube_tiktok": {
       "yol": "Metricool",
-      "id": 441523249,
+      "id": 441564450,
       "uuid": "-5549131064934969719",
       "not": "YouTube'a videoThumbnailUrl gönderilmedi; kapak ilk 6 kareye gömülü"
     }
