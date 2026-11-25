@@ -21,6 +21,22 @@
     "model": "eleven_v4",
     "elevenlabs_flow": "tzmzpedUMPX8q3QqcdJn"
   },
-  "yayin": {},
+  "yayin": {
+    "durum": "TASLAK (draft:true) — Berkay onayı bekleniyor",
+    "planlanan": "2026-11-25T19:00+03:00",
+    "instagram": {
+      "yol": "Metricool",
+      "id": 441523218,
+      "uuid": "-2162857489319312486",
+      "tip": "REEL",
+      "kapak": "videoThumbnailUrl"
+    },
+    "youtube_tiktok": {
+      "yol": "Metricool",
+      "id": 441523249,
+      "uuid": "-5549131064934969719",
+      "not": "YouTube'a videoThumbnailUrl gönderilmedi; kapak ilk 6 kareye gömülü"
+    }
+  },
   "oylar": null
 }
