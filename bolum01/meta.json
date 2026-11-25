@@ -24,9 +24,36 @@
       "video_id": "JbaSY0Ujg9g"
     },
     "tiktok": {
-      "durum": "AWAITING_CONFIRMATION",
-      "id": "7711828546437384213"
+      "durum": "PUBLISHED",
+      "id": "7711829353616674066",
+      "url": "https://www.tiktok.com/@sonkarar.senin/video/7711829353616674066"
     }
   },
-  "oylar": null
+  "oylar": {
+    "sayim_zamani": "2026-11-25T13:00+03:00",
+    "instagram": {
+      "kaynak": "Windsor.ai (önbellek)",
+      "yorum": 21,
+      "tekil_A": 8,
+      "tekil_B": 9,
+      "not": "4rda_dxs 5 kez A yazdı, 1 sayıldı; 'Amcaya yardım et'=A, 'Otobüs'=B sayıldı"
+    },
+    "youtube": {
+      "kaynak": "Windsor.ai",
+      "yorum": 1,
+      "tekil_A": 1,
+      "tekil_B": 0
+    },
+    "tiktok": {
+      "kaynak": "Metricool analitik",
+      "yorum": 0,
+      "not": "Yorum metni okunamıyor; Metricool 0 yorum gösterdi"
+    },
+    "toplam": {
+      "A": 9,
+      "B": 9,
+      "yuzde_A": 50,
+      "sonuc": "Berabere — senaryo A ile devam etti (Claude seçti, Berkay değiştirebilir)"
+    }
+  }
 }

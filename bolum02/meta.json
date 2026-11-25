@@ -1,0 +1,26 @@
+{
+  "bolum": 2,
+  "baslik": "Geç Kaldım",
+  "hikaye_no": 1,
+  "hikaye_bolumu": "2/3",
+  "onceki_oy": "%50 A (9–9 berabere) → A ile devam",
+  "hikaye": "Ana karakter amcaya yardım ediyor, otobüs gidiyor. Amca (Hüseyin Arslan) teşekkür edip kartvizitini veriyor. 'B'yi seçseydin' sahnesi: otobüsten amcanın tek başına kaldığını görüyoruz. Şirkete (Atlas Holding) 20 dk geç varıyor; güvenlik görevlisi 'görüşmeler bitti' derken kartı görüyor: amca onun babası çıkıyor! Görevli, listede gelmeyen bir adayın adıyla içeri girmesini öneriyor.",
+  "secenekler": {
+    "A": "Gelmeyen adayın adıyla gir, görüşmeyi kap",
+    "B": "Doğruyu söyle, işi kaybetmeyi göze al"
+  },
+  "ab_etiketleri": {
+    "A": "A · ONUN ADIYLA GİR",
+    "B": "B · DOĞRUYU SÖYLE"
+  },
+  "devam_fikri": "3. bölümde hikâye kapanır. A kazanırsa: içeride görüşmeci gelmeyen adayı tanıyor/yalan ortaya çıkıyor; ama amcanın iyiliği hatırlanır. B kazanırsa: dürüstlük + amca hikâyesi patronu etkiler, ikinci şans. (Berkay'a önerilecek)",
+  "sesler": {
+    "ana_karakter": "Naim Işık h1meLSDvtheYylUdAmYa",
+    "amca": "Seyfullah Kartal mF7tIc9VLrznhGooGjaT",
+    "guvenlik": "Bir Pare Sound J17lijyP1BHYcM7ld0Rg",
+    "model": "eleven_v4",
+    "elevenlabs_flow": "tzmzpedUMPX8q3QqcdJn"
+  },
+  "yayin": {},
+  "oylar": null
+}
