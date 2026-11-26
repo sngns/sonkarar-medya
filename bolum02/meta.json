@@ -38,5 +38,10 @@
       "not": "YouTube'a videoThumbnailUrl gönderilmedi; kapak ilk 6 kareye gömülü"
     }
   },
-  "oylar": null
+  "oylar": {
+    "A": 4,
+    "B": 2,
+    "kaynak": "Instagram 1A-1B (Windsor), YouTube kesin Bölüm 2 yorumları 3A-1B; TikTok sayılamadı",
+    "kazanan": "A"
+  }
 }
