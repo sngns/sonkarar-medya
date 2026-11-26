@@ -1,4 +1,8 @@
-node_modules/
-frames/
-ov/
 end/
+filmler/*/audio/*.wav
+filmler/*/mix.wav
+filmler/*/out/
+filmler/*/voices/raw/
+frames/
+node_modules/
+ov/
