@@ -1,0 +1,14 @@
+{
+  "bolum": 3,
+  "baslik": "Sahte İsim",
+  "hikaye_no": 1,
+  "hikaye_bolumu": "3/3 (final kararı; sonuç Bölüm 4'ün başında kısa epilogla gösterilir, ardından yeni hikâye başlar)",
+  "onceki_oy": "%67 A (Bölüm 2'ye ait olduğu kesin oylar: Instagram 1A-1B, YouTube 3A ('yalan söyle') - 1B ('doğruyu söyle'); sadece 'A'/'B' yazan YouTube yorumları Bölüm 1'e de ait olabileceği için sayılmadı, onlar da 4A-2B idi). TikTok sayılamadı.",
+  "hikaye": "Güvenlik görevlisi kenara çekiliyor, ana karakter 'Emre Kaya' olarak giriyor. 'B'yi seçseydin' sahnesi: görevli 'Dürüstlüğün için sağ ol ama kurallar kurallar' deyip kapıyı kapatıyor. Görüşmeci Ali Şahin (İK) özgeçmişte 5 yıl tecrübe görüyor. Kapı açılıyor: sabahki amca Hüseyin Arslan giriyor ve 'Adın neydi senin?' diye soruyor. Ali Bey: 'Hüseyin Bey! Kendisi Emre Kaya, bugünkü adayımız.' Amca şirketin kurucusu çıkıyor.",
+  "secenekler": {"A": "Yalana devam et: 'Evet, ben Emre Kaya!'", "B": "Her şeyi itiraf et, gerçek adını söyle"},
+  "ab_etiketleri": {"A": "A · YALANA DEVAM", "B": "B · İTİRAF ET"},
+  "devam_fikri": "Bölüm 4 başı (5–8 sn epilog): A kazanırsa amca 'Ama ben senin kartvizitine adını yazmıştım...' der, yalan ortaya çıkar, iş gider ama amca dürüstlük dersi verir. B kazanırsa amca güler: 'Beni yerden kaldıran adamın adı lazım bana, Emre'nin değil' — işe alınır. Sonra yeni hikâye.",
+  "sesler": {"ana_karakter": "Naim Işık h1meLSDvtheYylUdAmYa", "amca": "Seyfullah Kartal mF7tIc9VLrznhGooGjaT", "guvenlik": "Bir Pare Sound J17lijyP1BHYcM7ld0Rg", "ik_ali_bey": "Emrah - Mature Podcast Voice Gx8RjNRz6Z45JG2TW83t", "model": "eleven_v4", "elevenlabs_flow": "ZitoCHKj3Hz2uBJdPJBT"},
+  "yayin": {"durum": "ONAY BEKLİYOR"},
+  "oylar": null
+}
