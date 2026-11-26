@@ -63,3 +63,15 @@ medya dosyalarını, 3D motorunu ve bölüm kayıtlarını tutar. Sahibi Berkay.
 ## Bölüm kayıtları
 Her bölüm `bolumNN/` klasöründe: video.mp4, kapak.jpg, meta.json (hikâye, A/B metinleri, gönderi kimlikleri,
 oy sonuçları).
+
+## YENİ ÜRETİM HATTI (Bölüm 3 v2'den itibaren — Berkay, 2026-11-26)
+- Süre ~60 sn. Stil: Lemo-Opuscar `hd-2d` (2.5D piksel diorama). /video-uretim kuralları: önce storyboard (6–9 kare) → Berkay onayı → render.
+- Kaynak şablonu: filmler/bolum03/ (story.js = zaman çizelgesi ve replikler, sets.js = setler, chars.js = piksel karakterler, ui.js = bölüm bandı/diyalog kutusu/oy kartı/seçim menüsü, audio/score.py müzik+efekt, audio/mix.py miks). Yeni bölüm: klasörü kopyala, story.js + sets.js değiştir.
+- POV eller yok; A/B ekranı RPG seçim menüsü ("ŞİMDİ NE YAPMALIYIM?" ▶ A/B) + "YORUMLARA A VEYA B YAZ!".
+- Komutlar (lemo-opuscar kökünden, PATH başında /home/claude/bin ffmpeg 7):
+  still: node core/render/still.mjs <film> <t...> --size 1080x1920 --q ss=1
+  test: node <film>/tools/render_range.mjs a b --workers 2 (~0.6 kare/sn)
+  tam: node core/render/video.mjs <film> --fps 24 --workers 2 --size 1080x1920 --q ss=1 (~40 dk, arka planda)
+  kapak: ?noui=1&ss=2 ile still → yazı ekle → kapak.jpg; videonun başına 1 kare olarak ekle, ses 42 ms geciktir
+  mux: sh core/render/mux.sh video.mp4 mix.wav final.mp4 24 0  (−14 LUFS)
+- Teslim öncesi ZORUNLU kontrol: blackdetect, silencedetect, freezedetect (v1'de 10 sn görüntüsüz/sessiz boşluk hatası olmuştu; parça birleştirme yapma).
