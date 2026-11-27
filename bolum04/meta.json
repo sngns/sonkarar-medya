@@ -23,17 +23,17 @@
  "kaynak": "filmler/bolum04",
  "kontrol": "blackdetect/silencedetect temiz; freezedetect 19.2–21.2 sn sepya geri dönüş sahnesinde sabit kamera (ses devam ediyor); -14.0 LUFS; 60.04 sn",
  "yayin": {
-  "durum": "ONAY BEKLİYOR — Metricool draft:true",
+  "durum": "ONAYLANDI (Berkay, 2026-11-27 14:56) — draft:false, 19:00 otomatik yayın",
   "planlanan": "2026-11-27T19:00+03:00",
   "instagram": {
    "yol": "Metricool",
-   "id": 444242808,
+   "id": 444270281,
    "uuid": "3339139458471707401",
    "tip": "REEL"
   },
   "youtube_tiktok": {
    "yol": "Metricool",
-   "id": 444242880,
+   "id": 444270293,
    "uuid": "8660863748519052958"
   }
  },
