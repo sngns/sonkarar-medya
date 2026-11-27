@@ -72,6 +72,7 @@ oy sonuçları).
   still: node core/render/still.mjs <film> <t...> --size 1080x1920 --q ss=1
   test: node <film>/tools/render_range.mjs a b --workers 2 (~0.6 kare/sn)
   tam: node core/render/video.mjs <film> --fps 24 --workers 2 --size 1080x1920 --q ss=1 (~40 dk, arka planda)
-  kapak: ?noui=1&ss=2 ile still → yazı ekle → kapak.jpg; videonun başına 1 kare olarak ekle, ses 42 ms geciktir
+  kapak: ?noui=1&ss=2 ile still → `python filmler/make_cover.py still.jpg bolumNN/kapak.jpg N "Başlık" "KANCA 1" "KANCA 2"` → videonun başına 1 kare olarak ekle, ses 42 ms geciktir
+  KAPAK KURALI (Berkay): Instagram profil ızgarası ortadaki 1080×1440'ı gösterir (y 240–1680). Başlık, bölüm no ve tüm yazılar bu alanın içinde olmalı; make_cover.py bunu kontrol eder, _grid.jpg önizlemesine bak.
   mux: sh core/render/mux.sh video.mp4 mix.wav final.mp4 24 0  (−14 LUFS)
 - Teslim öncesi ZORUNLU kontrol: blackdetect, silencedetect, freezedetect (v1'de 10 sn görüntüsüz/sessiz boşluk hatası olmuştu; parça birleştirme yapma).

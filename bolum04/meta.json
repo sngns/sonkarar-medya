@@ -1,0 +1,29 @@
+{
+ "bolum": 4,
+ "baslik": "Bulunan Cüzdan",
+ "hikaye_no": "1 (son) + 2 (başlangıç)",
+ "onceki_oy": "%100 B (Bölüm 3): Instagram 1 B ('İtiraf et'), YouTube 1 B (26 Kasım tarihli, videosu kesin değil). TikTok sayılamadı. Windsor verisi önbellekten.",
+ "hikaye": "Kerem itiraf eder ('Benim adım Emre değil, ben Kerem'); Hüseyin amca: 'Beni yerden kaldıran adamın adı lazım bana. Yarın başlıyorsun Kerem!' A'yı seçseydin: 'Emre benim yeğenim, dün İzmir'e taşındı.' Hikâye 1 biter. Hikâye 2: ertesi sabah, ilk iş günü, durakta cüzdan (5.000 TL, kimlik Murat Demir, Lale Sk. No 7), otobüs gelir, 'kimse görmedi'.",
+ "secenekler": {
+  "A": "Parayı al",
+  "B": "Cüzdanı sahibine götür"
+ },
+ "ab_etiketleri": {
+  "A": "A · PARAYI AL",
+  "B": "B · SAHİBİNE GÖTÜR"
+ },
+ "devam_fikri": "Bölüm 5: B kazanırsa Lale Sk. 7'deki Murat Demir... (beklenmedik dönüş: Atlas'taki yeni müdürü çıkar, Kerem geç kalsa da önden tanışmış olur). A kazanırsa ofiste yeni müdür 'Murat Demir' olarak tanıtılır, cüzdanını arıyordur. Azınlık sahnesi diğer şık.",
+ "sesler": {
+  "ana_karakter": "Naim Işık h1meLSDvtheYylUdAmYa",
+  "amca": "Seyfullah Kartal mF7tIc9VLrznhGooGjaT",
+  "ik_ali_bey": "Emrah Gx8RjNRz6Z45JG2TW83t",
+  "model": "eleven_v4",
+  "elevenlabs_flow": "tS4PrhDZwHKgiFEiFMUM"
+ },
+ "kaynak": "filmler/bolum04",
+ "kontrol": "blackdetect/silencedetect temiz; freezedetect 19.2–21.2 sn sepya geri dönüş sahnesinde sabit kamera (ses devam ediyor); -14.0 LUFS; 60.04 sn",
+ "yayin": {
+  "durum": "ONAY BEKLİYOR — Metricool draft:true 19:00"
+ },
+ "oylar": null
+}
