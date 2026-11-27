@@ -20,7 +20,7 @@ medya dosyalarını, 3D motorunu ve bölüm kayıtlarını tutar. Sahibi Berkay.
 
 ## Günlük döngü
 - 13:00 (Europe/Istanbul) üretim, 19:00 yayın. Berkay onay vermeden HİÇBİR ŞEY herkese açık yayınlanmaz.
-- Yayın: Metricool (blogId 8342778; instagram, tiktok, youtube bağlı). Video için `media` alanına bu deponun
+- Yayın: Metricool (blogId 8342778; instagram, tiktok, youtube bağlı). **TikTok DEVRE DIŞI (Berkay, 2026-11-27: etkileşim yok) — sadece Instagram + YouTube'a gönder.** Video için `media` alanına bu deponun
   raw URL'si verilir: https://raw.githubusercontent.com/sngns/sonkarar-medya/main/bolumNN/video.mp4
   - Instagram: instagramData.type = "REEL", kapak videoThumbnailUrl ile.
   - YouTube: youtubeData.type = "short", madeForKids false, kategori ENTERTAINMENT. Kanal doğrulanmadığı için
