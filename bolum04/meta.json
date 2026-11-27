@@ -23,7 +23,19 @@
  "kaynak": "filmler/bolum04",
  "kontrol": "blackdetect/silencedetect temiz; freezedetect 19.2–21.2 sn sepya geri dönüş sahnesinde sabit kamera (ses devam ediyor); -14.0 LUFS; 60.04 sn",
  "yayin": {
-  "durum": "ONAY BEKLİYOR — Metricool draft:true 19:00"
+  "durum": "ONAY BEKLİYOR — Metricool draft:true",
+  "planlanan": "2026-11-27T19:00+03:00",
+  "instagram": {
+   "yol": "Metricool",
+   "id": 444242808,
+   "uuid": "3339139458471707401",
+   "tip": "REEL"
+  },
+  "youtube_tiktok": {
+   "yol": "Metricool",
+   "id": 444242880,
+   "uuid": "8660863748519052958"
+  }
  },
  "oylar": null
 }
