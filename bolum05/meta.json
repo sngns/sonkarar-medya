@@ -23,7 +23,17 @@
  "kaynak": "filmler/bolum05",
  "kontrol": "blackdetect/silencedetect/freezedetect temiz; -14.0 LUFS; 60.04 sn; konuşan karakterler kadrajda",
  "yayin": {
-  "durum": "ONAY BEKLİYOR — Metricool draft:true 19:00 (Instagram + YouTube)"
+  "durum": "ONAY BEKLİYOR — Metricool draft:true",
+  "planlanan": "2026-11-28T19:00+03:00",
+  "instagram": {
+   "id": 445325459,
+   "uuid": "4409840339786878747",
+   "tip": "REEL"
+  },
+  "youtube": {
+   "id": 445325480,
+   "uuid": "-7536291848701001037"
+  }
  },
  "oylar": null
 }
