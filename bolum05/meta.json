@@ -1,0 +1,29 @@
+{
+ "bolum": 5,
+ "baslik": "Yeni Müdür",
+ "hikaye_no": "2 (2. bölüm)",
+ "onceki_oy": "Bölüm 4: B (sahibine götür). YouTube: 1 A, 2 B (Cansu 2 yorum = 1 oy). Instagram: 0 yorum. TikTok devre dışı.",
+ "hikaye": "Kanca: 'Cüzdanı sahibine götürdüm… ama sahibi kim çıktı, tahmin bile edemezsiniz!' Kerem cüzdanı Lale Sk.'ta Murat Demir'e verir, işe geç kalır; Ali Bey azarlar; Murat Bey girer: yeni genel müdür. A'yı seçseydin: 'Bu sabah cüzdanım çalındı, içinde beş bin lira vardı…' Öğle: Murat Bey sır verir — Hüseyin Bey emekli oluyor, şirketi oğluna değil Murat'a bırakıyor. Kapıda Cem (amcanın oğlu, güvenlik): 'Seni içeri ben soktum. Babam şirketi kime bırakıyor?'",
+ "secenekler": {
+  "A": "Cem'e gerçeği söyle",
+  "B": "Sırrı sakla"
+ },
+ "ab_etiketleri": {
+  "A": "A · GERÇEĞİ SÖYLE",
+  "B": "B · SIRRI SAKLA"
+ },
+ "devam_fikri": "Bölüm 6 (hikâye 2 finali): A kazanırsa Cem babasıyla konuşur, ortaya çıkar ki Hüseyin Bey bilerek Murat'a test etmiş — sır yalandı, Kerem'in sadakatini değil dürüstlüğünü ölçüyordu… B kazanırsa Cem kırılır ama sonra Murat'ın şirketi satmayı planladığı ortaya çıkar. Sonra yeni hikâye.",
+ "sesler": {
+  "kerem": "Naim Işık h1meLSDvtheYylUdAmYa",
+  "murat": "Doga IuRRIAcbQK5AQk1XevPj",
+  "ali": "Emrah Gx8RjNRz6Z45JG2TW83t",
+  "cem": "Bir Pare Sound J17lijyP1BHYcM7ld0Rg",
+  "elevenlabs_flow": "hsXoDjHcshllSrCA2TDq"
+ },
+ "kaynak": "filmler/bolum05",
+ "kontrol": "blackdetect/silencedetect/freezedetect temiz; -14.0 LUFS; 60.04 sn; konuşan karakterler kadrajda",
+ "yayin": {
+  "durum": "ONAY BEKLİYOR — Metricool draft:true 19:00 (Instagram + YouTube)"
+ },
+ "oylar": null
+}

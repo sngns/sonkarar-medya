@@ -13,7 +13,7 @@ medya dosyalarını, 3D motorunu ve bölüm kayıtlarını tutar. Sahibi Berkay.
 
 ## Devam kuralı (Berkay ile anlaşıldı)
 - Ana hikâye ÇOĞUNLUĞUN seçtiği şıktan devam eder.
-- Sonraki bölümün başında ilk ~3 sn: "Geçen bölüm: %X A dedi!" + kısa hatırlatma.
+- Sonraki bölümün başında ilk ~4 sn: ORAN/YÜZDE YAZMA (Berkay, 2026-11-28). "BUNU SEÇMEMİ İSTEDİNİZ: B · ..." kartı + merak uyandıran bir KANCA cümlesi (ör. "Cüzdanı sahibine götürdüm… ama sahibi kim çıktı, tahmin bile edemezsiniz!"). Açıklamalarda da oran yazma.
 - Kazanan şıkkın sonucu (beklenmedik bir dönüşle), sonra yeni ikilem ve A/B ekranı.
 - Azınlık için 5–8 sn'lik "B'yi seçseydin ne olurdu?" kısa sahnesi eklenir.
 - Bir hikâye 2–3 bölümde kapanır, sonra yeni hikâye başlar.
@@ -66,7 +66,7 @@ oy sonuçları).
 
 ## YENİ ÜRETİM HATTI (Bölüm 3 v2'den itibaren — Berkay, 2026-11-26)
 - Süre ~60 sn. Stil: Lemo-Opuscar `hd-2d` (2.5D piksel diorama). /video-uretim kuralları: önce storyboard (6–9 kare) → Berkay onayı → render.
-- Kaynak şablonu: filmler/bolum03/ (story.js = zaman çizelgesi ve replikler, sets.js = setler, chars.js = piksel karakterler, ui.js = bölüm bandı/diyalog kutusu/oy kartı/seçim menüsü, audio/score.py müzik+efekt, audio/mix.py miks). Yeni bölüm: klasörü kopyala, story.js + sets.js değiştir.
+- Kaynak şablonu: en son filmler/bolumNN/ (bolum05'ten itibaren story.js EP/TITLE/CARD/SEPIA/ITEM/FADES ile parametreli ui.js) (story.js = zaman çizelgesi ve replikler, sets.js = setler, chars.js = piksel karakterler, ui.js = bölüm bandı/diyalog kutusu/oy kartı/seçim menüsü, audio/score.py müzik+efekt, audio/mix.py miks). Yeni bölüm: klasörü kopyala, story.js + sets.js değiştir.
 - POV eller yok; A/B ekranı RPG seçim menüsü ("ŞİMDİ NE YAPMALIYIM?" ▶ A/B) + "YORUMLARA A VEYA B YAZ!".
 - Komutlar (lemo-opuscar kökünden, PATH başında /home/claude/bin ffmpeg 7):
   still: node core/render/still.mjs <film> <t...> --size 1080x1920 --q ss=1
@@ -75,4 +75,5 @@ oy sonuçları).
   kapak: ?noui=1&ss=2 ile still → `python filmler/make_cover.py still.jpg bolumNN/kapak.jpg N "Başlık" "KANCA 1" "KANCA 2"` → videonun başına 1 kare olarak ekle, ses 42 ms geciktir
   KAPAK KURALI (Berkay): Instagram profil ızgarası ortadaki 1080×1440'ı gösterir (y 240–1680). Başlık, bölüm no ve tüm yazılar bu alanın içinde olmalı; make_cover.py bunu kontrol eder, _grid.jpg önizlemesine bak.
   mux: sh core/render/mux.sh video.mp4 mix.wav final.mp4 24 0  (−14 LUFS)
+- KADRAJ (Berkay, 2026-11-28): karakterleri biraz uzaktan çiz (main.js FOV_WIDE=1.18), KONUŞAN HER KARAKTER konuştuğu sürede kadrajda olmalı — her diyalog satırının ortasından still alıp kontrol et. Diyalog kutuları üst üste binmemeli (ui.js bir sonraki repliğe kadar kapatır).
 - Teslim öncesi ZORUNLU kontrol: blackdetect, silencedetect, freezedetect (v1'de 10 sn görüntüsüz/sessiz boşluk hatası olmuştu; parça birleştirme yapma).
