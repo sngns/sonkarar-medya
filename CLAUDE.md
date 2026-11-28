@@ -77,3 +77,11 @@ oy sonuçları).
   mux: sh core/render/mux.sh video.mp4 mix.wav final.mp4 24 0  (−14 LUFS)
 - KADRAJ (Berkay, 2026-11-28): karakterleri biraz uzaktan çiz (main.js FOV_WIDE=1.18), KONUŞAN HER KARAKTER konuştuğu sürede kadrajda olmalı — her diyalog satırının ortasından still alıp kontrol et. Diyalog kutuları üst üste binmemeli (ui.js bir sonraki repliğe kadar kapatır).
 - Teslim öncesi ZORUNLU kontrol: blackdetect, silencedetect, freezedetect (v1'de 10 sn görüntüsüz/sessiz boşluk hatası olmuştu; parça birleştirme yapma).
+
+## HİKÂYE VE TEMPO (Berkay, 2026-11-28)
+- Hikâyeler yapmacık ve hızlı bulundu. Amaç uzun video değil MERAK: süre 60–90 sn olabilir, ama doldurmak için değil.
+- Bölüm başına en fazla 3–4 sahne (7–8 kısa sahne değil). Her sahne nefes alsın: en az 8–12 sn, sahne içinde küçük detaylar
+  (ortam sesi, bakışlar, el hareketi, bir eşyaya yakın çekim, iç ses), ani kart/geçişleri azalt.
+- Tesadüf zincirinden kaçın (her bölümde "o kişi meğer patronmuş" türü dönüş olmasın). Dönüşler önceki bölümde ekilmiş bir
+  detaydan gelsin. Diyaloglar gündelik ve doğal olsun, açıklayıcı/kitapsı cümle kurma.
+- Sondaki ikilem karakterin yaşadığı küçük ama gerçek bir anla kurulsun; izleyici "ben ne yapardım" diye düşünsün.
